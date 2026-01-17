@@ -1,18 +1,17 @@
-# Mgd43b Taps
+# homebrew-taps
 
-## How do I install these formulae?
+Homebrew tap maintained by **mgd43b**.
 
-`brew install mgd43b/taps/<formula>`
+## Install sdbh
 
-Or `brew tap mgd43b/taps` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "mgd43b/taps"
-brew "<formula>"
+```bash
+brew tap mgd43b/taps
+brew install sdbh
 ```
 
-## Documentation
+## Upgrade
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew update
+brew upgrade sdbh
+```
