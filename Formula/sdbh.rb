@@ -1,8 +1,8 @@
 class Sdbh < Formula
   desc "Shell DB History: store and query shell command history in SQLite"
   homepage "https://github.com/mgd43b/shelldbhist"
-  url "https://github.com/mgd43b/shelldbhist/archive/refs/tags/v0.14.1.tar.gz"
-  sha256 "537d67592d06f396dc127025a2d087072e089903dfdb4e9f4d8b39727dcae634"
+  url "https://github.com/mgd43b/shelldbhist/archive/refs/tags/v0.14.2.tar.gz"
+  sha256 "cbf4e4542c694ec306f7b6c66e7b933c27c2a6eb6cacbd15df8c11297de0fa9f"
   license "MIT"
 
   depends_on "rust" => :build
