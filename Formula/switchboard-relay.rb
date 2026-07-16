@@ -14,8 +14,8 @@ class SwitchboardRelay < Formula
   desc "Shared, durable messaging channel for independent Claude Code sessions"
   homepage "https://github.com/mgd43b/switchboard-relay"
   # PyPI sdist (PEP 625 normalizes the name to underscores). Bump on each release.
-  url "https://files.pythonhosted.org/packages/source/s/switchboard-relay/switchboard_relay-0.2.2.tar.gz"
-  sha256 "6e7c5648e716e517beb56c9d567c4e9438e6bcedda429e8002b80609b3f31b4a"
+  url "https://files.pythonhosted.org/packages/source/s/switchboard-relay/switchboard_relay-0.2.3.tar.gz"
+  sha256 "daff857f04ba9a948f70c649b514e8ce539bc5a037cf2717e38c1ffbed1167e8"
   license "MIT"
 
   livecheck do
