@@ -10,7 +10,9 @@ jobs:
   test-bot:
     strategy:
       matrix:
-        os: [ ubuntu-22.04, macos-15-intel, macos-26 ]
+        # ubuntu-24.04+: Homebrew treats glibc 2.35 (22.04) as too old and
+        # `brew test-bot --only-setup` fails its `brew doctor` step.
+        os: [ ubuntu-24.04, macos-15-intel, macos-26 ]
     runs-on: ${{ matrix.os }}
     permissions:
       actions: read

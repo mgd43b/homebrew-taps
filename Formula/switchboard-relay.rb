@@ -13,8 +13,10 @@ class SwitchboardRelay < Formula
 
   desc "Shared, durable messaging channel for independent Claude Code sessions"
   homepage "https://github.com/mgd43b/switchboard-relay"
-  # PyPI sdist (PEP 625 normalizes the name to underscores). Bump on each release.
-  url "https://files.pythonhosted.org/packages/source/s/switchboard-relay/switchboard_relay-0.2.3.tar.gz"
+  # PyPI sdist "Source" URL (the canonical hash-path form FormulaAudit/PyPiUrls
+  # requires; the /packages/source/ shorthand is rejected). Bumped per release by
+  # scripts/update-tap.sh, which resolves it from PyPI's JSON API.
+  url "https://files.pythonhosted.org/packages/37/33/efeebf310ba500b16d798cd77fdac15618f18c7326d8fbfc1f114482f638/switchboard_relay-0.2.3.tar.gz"
   sha256 "daff857f04ba9a948f70c649b514e8ce539bc5a037cf2717e38c1ffbed1167e8"
   license "MIT"
 
@@ -23,9 +25,9 @@ class SwitchboardRelay < Formula
     strategy :pypi
   end
 
-  depends_on "python@3.13"
   # pydantic-core builds from its sdist via maturin, so Rust is needed at build time.
   depends_on "rust" => :build
+  depends_on "python@3.13"
 
   # ---- BEGIN auto-generated resources ------------------------------------
   # Do NOT hand-edit. Regenerate with `brew update-python-resources switchboard-relay`.
