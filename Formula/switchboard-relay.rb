@@ -16,8 +16,8 @@ class SwitchboardRelay < Formula
   # PyPI sdist "Source" URL (the canonical hash-path form FormulaAudit/PyPiUrls
   # requires; the /packages/source/ shorthand is rejected). Bumped per release by
   # scripts/update-tap.sh, which resolves it from PyPI's JSON API.
-  url "https://files.pythonhosted.org/packages/37/33/efeebf310ba500b16d798cd77fdac15618f18c7326d8fbfc1f114482f638/switchboard_relay-0.2.3.tar.gz"
-  sha256 "daff857f04ba9a948f70c649b514e8ce539bc5a037cf2717e38c1ffbed1167e8"
+  url "https://files.pythonhosted.org/packages/29/2c/d21c2abe49b7661a1b7c51bd19193091e3d3b43b2f5c6a2b762c3353a6f2/switchboard_relay-0.2.4.tar.gz"
+  sha256 "79856a764c2fce04689cd0045f37b9fc2216072a5627e2a7f34abde95c59c0b7"
   license "MIT"
 
   livecheck do
@@ -41,8 +41,8 @@ class SwitchboardRelay < Formula
   # ---- END auto-generated resources --------------------------------------
 
   resource "annotated-types" do
-    url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
-    sha256 "aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"
+    url "https://files.pythonhosted.org/packages/5f/56/a8120250d128bed162cd73c76d45f6ef9991f3e068f62a8ee060afa3104a/annotated_types-0.8.0.tar.gz"
+    sha256 "13b2beaad985e05e2d6407ee4c4f35590b11f8d693a258a561055cac8f64cab7"
   end
 
   resource "anyio" do
@@ -56,8 +56,8 @@ class SwitchboardRelay < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
-    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
+    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
+    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
   end
 
   resource "cffi" do
@@ -161,8 +161,8 @@ class SwitchboardRelay < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/d2/1b/bc9e3e7a72dcdad7dc7888758f5d00f56f8909ed5cfdff822bd72bb4c520/sse_starlette-3.4.5.tar.gz"
-    sha256 "83072538bc211a2f68b7b0422226c4af3e9b62e106e07034664b832ca019842a"
+    url "https://files.pythonhosted.org/packages/6c/10/a34c656829ffc1c4b22ef36d70d9ebb6b99c020e2aeb17cee5485099f028/sse_starlette-3.4.6.tar.gz"
+    sha256 "725f8a1bd6d26ae1b2c9610c0ef5065dfdd496f3988d28adcf8c4b49dc25c627"
   end
 
   resource "starlette" do
