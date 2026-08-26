@@ -16,8 +16,8 @@ class SwitchboardRelay < Formula
   # PyPI sdist "Source" URL (the canonical hash-path form FormulaAudit/PyPiUrls
   # requires; the /packages/source/ shorthand is rejected). Bumped per release by
   # scripts/update-tap.sh, which resolves it from PyPI's JSON API.
-  url "https://files.pythonhosted.org/packages/a8/4f/c5c26798fcbcd78b3c8102a86c12091c5c9ff58b56461f2ceced167c5037/switchboard_relay-0.2.7.tar.gz"
-  sha256 "c4a56916c0905803d0929a1963d4687c958f9f21abf818b1ac036187212089dc"
+  url "https://files.pythonhosted.org/packages/7c/7a/4f0253255f8e9de2fc9021cd941e5e9748d84594ae7be407d45d69c31ac8/switchboard_relay-0.2.8.tar.gz"
+  sha256 "241f65eecc4b617d715b54903a8047d321387900db1ec83f651441767417d726"
   license "MIT"
 
   livecheck do
@@ -71,8 +71,8 @@ class SwitchboardRelay < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/de/41/6cbdcf9142d00fe82836fbb51e503e58088575cf7a0fe1dbff6695bf0840/cryptography-50.0.0.tar.gz"
-    sha256 "eeac2acb5a20ed25e0ad6d1df9891a520b78b404266b6d11778f25d5d691a6c9"
+    url "https://files.pythonhosted.org/packages/bb/ad/5d6702db60b1e40b41ef513b6967ff5848f307d50f8449baf1634f5908f1/cryptography-50.0.1.tar.gz"
+    sha256 "5dd9bda1c12b4162f6ff568eeb5e0ff956c28d14406e875cfe8a63a2d414ff20"
   end
 
   resource "h11" do
@@ -111,8 +111,8 @@ class SwitchboardRelay < Formula
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/30/d3/f9acc21dfc886e4f78e2add1a47db46ce16884346afde53f8a064c02c891/mcp-1.29.0.tar.gz"
-    sha256 "52d01f334de1868cc3bb2d6604931126a67631f99a6c5d3b82ba47290315ec36"
+    url "https://files.pythonhosted.org/packages/b5/48/0bb26fdfe7ac16875f534a101ce2405eae192bdef37e7451f2f4507c13ec/mcp-1.29.1.tar.gz"
+    sha256 "1967ba4c315f7a375146209949f45950d18b0efd2f913d7cf3400bc723ee5f04"
   end
 
   resource "pycparser" do
