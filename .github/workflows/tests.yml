@@ -12,7 +12,16 @@ jobs:
       matrix:
         # ubuntu-24.04+: Homebrew treats glibc 2.35 (22.04) as too old and
         # `brew test-bot --only-setup` fails its `brew doctor` step.
-        os: [ ubuntu-24.04, macos-15-intel, macos-26 ]
+        #
+        # No Intel macOS runner: homebrew-core has stopped bottling for it, and
+        # a platform with no bottles is a platform that builds from source. Of
+        # the formulae this tap needs, `gmp`, `rust` and `node` all ship arm64
+        # macOS and x86_64 Linux only — so `brew style` could not install
+        # shellcheck without compiling gmp, and every push since 2026-09-04
+        # failed fetching its tarball from a GNU mirror. `--only-formulae`
+        # would have gone the same way on the next pull request, building the
+        # Rust toolchain from source to test switchboard-relay.
+        os: [ ubuntu-24.04, macos-26 ]
     runs-on: ${{ matrix.os }}
     permissions:
       actions: read
