@@ -11,8 +11,8 @@
 class CodeindexSync < Formula
   desc "Git-hook-driven index sync for MCP code-search backends such as SocratiCode"
   homepage "https://github.com/mgd43b/codeindex-sync"
-  url "https://registry.npmjs.org/codeindex-sync/-/codeindex-sync-0.4.1.tgz"
-  sha256 "31f540a24c0e6a4bd9b0f60af9f411c9b90ed22c6c808d84b8a2be9d939bd74e"
+  url "https://registry.npmjs.org/codeindex-sync/-/codeindex-sync-0.5.2.tgz"
+  sha256 "2b09da42916adf67409d586c9ce3fe96ae2ec38901779f90da3541b3828c6825"
   license "MIT"
 
   livecheck do
