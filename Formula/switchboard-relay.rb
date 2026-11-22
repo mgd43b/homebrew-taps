@@ -16,8 +16,8 @@ class SwitchboardRelay < Formula
   # PyPI sdist "Source" URL (the canonical hash-path form FormulaAudit/PyPiUrls
   # requires; the /packages/source/ shorthand is rejected). Bumped per release by
   # scripts/update-tap.sh, which resolves it from PyPI's JSON API.
-  url "https://files.pythonhosted.org/packages/39/68/f2d01772d6a84f39fcaee21e5e32789f3d42bfdec540f9e44f26440431f3/switchboard_relay-0.2.11.tar.gz"
-  sha256 "f255cf384a769beff2f721c3a58a2fc91dfe385d0b99bb81b1e7730d4826c327"
+  url "https://files.pythonhosted.org/packages/ec/6d/5554a10950335e3331c4211d3de20e7834c3e083300e45e8bf03d5040959/switchboard_relay-0.2.12.tar.gz"
+  sha256 "3dd45d736cc132157cfe2b05f952739142628790600552b565c3d4f653792c47"
   license "MIT"
 
   livecheck do
